@@ -1,4 +1,4 @@
-# Cardano Governance Action Rationales
+# Cardano Governance Action Rationales
 
 ## What?
 
