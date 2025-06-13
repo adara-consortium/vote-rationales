@@ -12,4 +12,8 @@ Jose de Gamboa [@Bitcows](https://x.com/Bitcows)
 
 Ian Hartwell [@HephyPool](https://x.com/HephyPool)
 
-Dennis Slattery [@dennis_slattery](https://x.com/dennis_slattery) 
+Dennis Slattery [@dennis_slattery](https://x.com/dennis_slattery)
+
+## Where?
+
+You can vote for us over at the [Constitutional Committee Election Portal](https://elections.constitution.gov.tools/)
