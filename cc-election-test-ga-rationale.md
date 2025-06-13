@@ -33,10 +33,10 @@ The Adara Consortium consider this proposed governance action to be unconstituti
 ## References
 
 Cardano Blockchain Ecosystem Constitution
-ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy
+[ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy](ipfs.io/ipfs/bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)
 
 Project Nova Treasury Withdrawal Proposal Metadata
-ipfs://bafkreiew3wxdtgytkrtg3h7jzlspgfiktpxz7x3onz2yaa345ekrg7jz5q
+[ipfs://bafkreiew3wxdtgytkrtg3h7jzlspgfiktpxz7x3onz2yaa345ekrg7jz5q](ipfs.io/ipfs/bafkreiew3wxdtgytkrtg3h7jzlspgfiktpxz7x3onz2yaa345ekrg7jz5q)
 
 Governance Action on the SanchoNet Explorer
 https://sancho.cardanoconnect.io/govern/gov_action_proposal/19
