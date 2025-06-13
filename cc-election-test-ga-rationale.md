@@ -27,7 +27,7 @@ The Adara Consortium consider this proposed governance action to be unconstituti
 - Constitutional: 0
 - Unconstitutional: 4
 - Abstain: 0
-- Did Not Vote: 2
+- Did Not Vote: 0
 - Against Voting: 0
 
 ## References
