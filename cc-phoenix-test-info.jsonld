@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "summary": "Phoenix Alliance members vote on this info action, our first ever CC vote, as proof-of-competence.",
+    "rationaleStatement": "SanchoNet is the community run Cardano governance testnet. Here for education and destruction, or educational destruction. Anyone is free to learn and test what they like, and so we will!",
+    "precedentDiscussion": "This is Phoenix Alliance's first ever on-chain vote.",
+    "counterargumentDiscussion": "We don't need to do this...",
+    "conclusion": "...but we do it anyway! Because you can just do things.",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 0
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Cardano Blockchain Ecosystem Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "Other",
+        "label": "Governance Action on the SanchoNet Explorer",
+        "uri": "https://sancho.cardanoconnect.io/proposals/gov_action18ksyycjgy52kn2d7ucyemyj4dn267aydfxt0m2hg6fvm0nkqppsqqf9ugma"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Phoenix Alliance"
+    }
+  ]
+}
