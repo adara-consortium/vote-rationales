@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@language": "en-us",
+    "@language": "en-gb",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -59,10 +59,10 @@
     "counterargumentDiscussion": "We don't need to do this...",
     "conclusion": "...but we do it anyway! Because you can just do things.",
     "internalVote": {
-      "constitutional": 0,
-      "unconstitutional": 0,
-      "abstain": 0,
-      "didNotVote": 0
+      "constitutional": 1,
+      "unconstitutional": 2,
+      "abstain": 1,
+      "didNotVote": 1
     },
     "references": [
       {
