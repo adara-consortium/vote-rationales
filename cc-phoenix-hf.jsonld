@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "@language": "en-gb",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "summary": "Phoenix Alliance members vote yes on the proposal to Hard Fork SanchoNet",
+    "rationaleStatement": "Get forked!",
+    "precedentDiscussion": "This is the first public-facing testnet to attempt to fork to Cardano protocol version 11",
+    "counterargumentDiscussion": "Fork Around and Find Out?",
+    "conclusion": "This one goes to 11! (Hopefully)",
+    "internalVote": {
+      "constitutional": 3,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 2
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Cardano Blockchain Ecosystem Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "Other",
+        "label": "Governance Action on the SanchoNet Explorer",
+        "uri": "https://sancho.cardanoconnect.io/proposals/gov_action12tu0jxgvsk8erraxtsdexuxlz9rhvzdwjhlh9kn5yfnpxce0fjdqqahljvn"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Phoenix Alliance"
+    }
+  ]
+}
